@@ -1,0 +1,33 @@
+<polymer-element name="hello-world" attributes="who">
+
+  <template>
+    <p>Hello <strong>{{who}}</strong> :)</p>
+
+    <ul>
+      <template repeat="{{i in items}}">
+        <li>{{i}}</li>
+      </template>
+    </ul>
+  </template>
+
+  <script>
+
+    Polymer.require('hello-world', ['underscore'], function (_) {
+
+      return {
+        who: 'world',
+        created: function () {
+          this.items = _.map([1, 2, 3, 4, 5], function (i) {
+            return i;
+          });
+        },
+        ready: function () {
+
+        }
+      };
+    });
+
+
+  </script>
+
+</polymer-element>

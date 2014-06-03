@@ -1,0 +1,7 @@
+public/css/
+public/js/bower_components/
+public/js/main.min.js
+*.iml
+.idea/
+atlassian-ide-plugin.xml
+node_modules/

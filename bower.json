@@ -1,0 +1,27 @@
+{
+  "name": "polymer-requirejs-boilerplate",
+  "version": "0.0.1",
+  "authors": [
+    "Patrick de Lanauze <patrick.delanauze@gmail.com>"
+  ],
+  "description": "polymer-requirejs-boilerplate",
+  "main": "public/js/main.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.14",
+    "jquery": "~2.1.1",
+    "requirejs-text": "~2.0.12",
+    "underscore": "~1.6.0",
+    "semantic-ui": "~0.17.0",
+    "schema-inspector": "*",
+    "requirejs-plugins": "~1.0.2",
+    "polymer": "Polymer/polymer#~0.3.1"
+  }
+}
