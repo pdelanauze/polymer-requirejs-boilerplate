@@ -16,3 +16,7 @@ Also bundled:
 To remove , remove the bower.json dependency, remove the concerned public/js/bower_components/ directories, and update
 the RequireJS config.js file (shim & paths). 
  
+
+### Credits
+
+Idea based on: https://gist.github.com/tantaman/7222599 and http://jsbin.com/efojap/2/edit
